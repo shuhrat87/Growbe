@@ -1,0 +1,46 @@
+.business__cards{
+    display: flex;
+    gap: 80px;
+    padding: 140px 0 125px;
+    width: 100%;
+    
+    @media(width < 768px){
+        flex-wrap: wrap;
+        padding: 40px 0 25px;
+        gap: 40px;
+        justify-content: center;
+    }
+}
+
+.businnes__card{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: flex-start;
+}
+
+.businnes-card2{
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    padding: 40px 30px 25px;
+    margin-top: -40px;
+}
+
+.businnes__card img{
+   
+    padding-bottom: 8px;
+}
+
+.business__txt{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--txt-primary-color);
+    max-width: 310px;
+}
+
+.business__link{
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--title-primary-color);
+    padding-top: 8px;
+    
+}

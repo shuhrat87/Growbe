@@ -1,0 +1,69 @@
+.statistic > .container{
+    padding: 100px 15px 42px;
+}
+
+.number__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border:3px solid #EEEEEE ;
+    padding: 42px 66px;
+    
+    @media(width < 1024px){
+      flex-direction: column;
+      gap: 20px;
+      
+    }
+    @media(width < 360px){
+        padding:30px 40px ;
+         
+      }
+}
+
+.number__card{
+    display: flex;
+    flex-direction: column;
+      gap: 5px;
+}
+
+.timer__card-num{
+    color: var(--txt-primary-color);
+    font-size: 70px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.number__card-txt{
+    font-size: 18px;
+    color: var(--txt-primary-color);
+    font-weight: 600;
+}
+
+.span__orange{
+    background: #F3602D;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.span__green{
+    background: #149211;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.span__yellow{
+    background: #FFC700;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}

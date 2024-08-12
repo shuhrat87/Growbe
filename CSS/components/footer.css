@@ -1,0 +1,135 @@
+.footer{
+    background: rgba(243, 243, 243, 1);
+   padding: 100px 0 140px;
+}
+
+.footer__big-box{
+    display: flex;
+    gap: 29px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    flex-wrap: wrap;
+}
+
+.footer__box2{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo__title{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--title-primary-color);
+}
+
+.span__logo{
+    color: var(--btn-primary-color);
+}
+
+
+.footer__link-box {
+    padding-top: 22px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+
+}
+
+  
+  .footer__link-link{
+    display: inline-block;
+    transition: 0.4s;
+    padding: 4px 8px;
+  }
+  .footer__link-link:hover {
+    background: var(--btn-primary-color);
+    border-radius: 50%;
+  }
+  
+  .footer__link-link:hover svg path {
+    fill: #ffffff;
+  }
+  
+  
+  .footer__box-txt{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--txt-primary-color);
+    max-width: 270px;
+    padding: 40px 0 8px;
+  }
+  
+  .footer__list-box{
+    display: flex;
+    justify-content: space-between;
+    gap:clamp(30px,5vw,145px);
+    padding-top: 7px;
+    
+    @media (width < 992px) {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .footer__item{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+  }
+  
+  .footer__title{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--title-primary-color);
+    padding-bottom: 28px;
+  }
+  
+  .footer__span{
+    background: var(--btn-primary-color);
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer__link{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--txt-primary-color);
+    transition: 0.4s;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+
+.footer-list2{
+    max-width: 222px;
+}
+
+.footer__link-span{
+    color: var(--title-primary-color);
+}
+
+
+.footer__last-box-txt{
+    display: flex;
+    justify-content: center;
+    padding: 19px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--txt3-color);
+}
+  

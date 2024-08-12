@@ -1,0 +1,126 @@
+.plans{
+    background: var(--body-primary-color);
+    padding: 87px 0 130px;
+}
+
+.plans__title-box{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}
+
+.plans__title-txt{
+    font-size:16px;
+    color: var(--txt-primary-color);
+    padding-bottom: 86px;
+    
+    @media(width < 992px){
+        padding-bottom: 25px; 
+    }
+}
+
+.plans__cards{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    
+    @media(width < 992px){
+       gap: 20px; 
+       flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.plans__card{
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    background: var(--btn-txt-color);
+    padding: 63px 79px 70px;
+    gap: 6px;
+   
+}
+.plan-card2{
+    box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+  transform: scale(1.05);
+  
+  @media(width < 992px){
+    box-shadow: none;
+    transform: none;
+  }
+}
+.plans__subtitle{
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 6px;
+    line-height: 31px;
+    transition: 0.4s;
+    
+    &:hover{
+        color: var( --btn-primary-color);
+        
+    }
+}
+
+.plans__card-box{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+
+.plans__card-box-price{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--title-primary-color);
+    transform: translateY(15%);
+}
+
+.plans__card-box-pricenum{
+    font-size: 70px;
+    line-height: 105px;
+    font-weight: 500;
+    color: var(--title-primary-color);
+}
+
+.plans__card-box-pricemount{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--title-primary-color);
+    transform: translateY(58%);
+}
+
+.plan__card-txt-box{
+    padding-bottom: 27px;
+}
+
+.plan__card-txt{
+  font-size: 16px; 
+  font-weight: 500;
+  color: var(--txt-primary-color);
+  line-height: 40px;
+ text-align: center;
+    
+}
+
+.plan__card-btn{
+    max-width: fit-content;
+    padding: 9px 60px;
+    color: rgba(243, 96, 45, 1);
+    font-size: 13px;
+    font-weight: 700;
+    background: rgba(242, 88, 34, 0.25);
+    transition: 0.4s;
+    border-radius: 50px;
+    @media(width < 480px){
+        padding: 9px 15px;
+       align-self: center;
+    }
+    
+    &:hover{
+        background: var(--btn-primary-color);
+        color: var(--btn-txt-color);
+        transform: translateX(5px);
+    }
+    
+}
