@@ -148,6 +148,12 @@
     white-space: nowrap;
     box-sizing: border-box;
     animation: marquee 3s linear infinite; 
+    
+    
+    @media(width < 992px) {
+        margin: 50px 0 30px;
+    }
+    
 }
 
 
